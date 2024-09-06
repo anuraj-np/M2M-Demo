@@ -1,0 +1,9 @@
+spring:
+  application:
+    name: M2M Demo App
+  security:
+    oauth2:
+      resourceserver:
+        jwt:
+          issuer-uri: https://dev-0oh6eulcdlc15cfy.us.auth0.com/
+          audiences: https://user-api
